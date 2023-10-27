@@ -1,4 +1,4 @@
-package S108_N1exercise5;
+package s108_lambdas.S108_N1exercise5;
 
 public class Functional_Interface_App {
     public static void main(String[] args) {

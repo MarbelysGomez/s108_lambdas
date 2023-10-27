@@ -1,11 +1,13 @@
-package S108_N1exercise3;
+package s108_lambdas.S108_N1exercise3;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Months_List {
-    public static void main(String[] args) {
-        List<String> months = new ArrayList<>();
+    private List<String> months;
+
+    public Months_List() {
+        months = new ArrayList<>();
         months.add("January");
         months.add("February");
         months.add("March");
@@ -18,9 +20,8 @@ public class Months_List {
         months.add("October");
         months.add("November");
         months.add("December");
-
-        //printing elements of the list
+    }
+    public void printMonths() {
         months.forEach(month -> System.out.println(month));
-
     }
 }

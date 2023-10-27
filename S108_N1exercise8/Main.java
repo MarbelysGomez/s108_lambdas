@@ -1,6 +1,6 @@
-package S108_N1exercise8;
+package s108_lambdas.S108_N1exercise8;
 
-public class StringReverse_App {
+public class Main {
     public static void main(String[] args) {
         StringReverser reverser = str -> {
             StringBuilder reversed = new StringBuilder(str);

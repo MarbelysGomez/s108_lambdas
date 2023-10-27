@@ -1,6 +1,4 @@
-package S108_N2exercise3;
-
-import jdk.dynalink.Operation;
+package s108_lambdas.S108_N2exercise3;
 
 @FunctionalInterface
 public interface Math_Operations {

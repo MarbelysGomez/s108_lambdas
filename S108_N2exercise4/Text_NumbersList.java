@@ -1,4 +1,4 @@
-package S108_N2exercise4;
+package s108_lambdas.S108_N2exercise4;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Text_NumbersList {
-    public static void main(String[] args) {
-
-        List<String> list = new ArrayList<>();
+    private List<String> list;
+    void execute() {
+    list = new ArrayList<>();
         list.add("blue");
         list.add("black");
         list.add("violet");

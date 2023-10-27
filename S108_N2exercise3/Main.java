@@ -1,6 +1,6 @@
-package S108_N2exercise3;
+package s108_lambdas.S108_N2exercise3;
 
-public class Math_Operations_App {
+public class Main {
     public static void main(String[] args) {
         Math_Operations addition = (a,b) -> a + b;
         Math_Operations subtraction = (a,b) -> a - b;
